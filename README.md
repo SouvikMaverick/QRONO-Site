@@ -66,7 +66,9 @@ Site/
 └── public/
     ├── app.js
     ├── index.html
-    └── style.css
+    ├── style.css
+    └── videos/
+        └── hero.mp4
 ```
 
 ### Key files
@@ -75,6 +77,7 @@ Site/
 - `public/index.html`: landing page content and sections for journey, packages, partner network, and CTA
 - `public/app.js`: frontend behavior, event planner logic, and chat interactions
 - `public/style.css`: visuals, layout, and branding styles
+- `public/videos/hero.mp4`: background video for the landing page hero section (muted, looping; replace the file to change it)
 - `.env.example`: sample environment variables
 
 ---
